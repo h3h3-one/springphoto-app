@@ -12,7 +12,7 @@ coverage
 benchmarks/graphs
 
 TICKET.txt
-html_template
+html_template/HTML-Moschino1.0.0
 
 # ignore additional files using core.excludesFile
 # https://git-scm.com/docs/gitignore
