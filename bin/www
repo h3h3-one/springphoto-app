@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 /**
  * Module dependencies.
  */
@@ -7,6 +6,7 @@
 let app = require('../app');
 let debug = require('debug')('springphoto:server');
 let http = require('http');
+let fs = require('fs')
 
 /**
  * Get port from environment and store in Express.
@@ -17,10 +17,10 @@ app.set('port', port);
 
 // Creating object of key and certificate 
 // for SSL 
-const options = { 
-  key: fs.readFileSync("/root/server.key"), 
-  cert: fs.readFileSync("/root/server.cert"), 
-}; 
+const options = {
+  key: fs.readFileSync("/root/server.key"),
+  cert: fs.readFileSync("/root/server.cert"),
+};
 
 /**
  * Create HTTPS server.
