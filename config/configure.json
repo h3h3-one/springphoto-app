@@ -1,4 +1,4 @@
 {
-    "pwdPath": "C:\\pwd",
-    "sessionsPath": "C:\\sessions"
+    "pwdPath": "~/pwd",
+    "sessionsPath": "~/sessions"
 }
