@@ -26,7 +26,7 @@ router.post('/delete-album', function (req, res, next) {
       // Recursive delete album
       fs.rmdirSync(__dirname + '/../public/images/' + albumNumber, { recursive: true })
       // fs.rmdir(__dirname + '/../public/images/' + albumNumber, { recursive: true }, (err) => { if (err) { console.log(err) } })
-      fs.close(_, (err) => console.log(err))
+
       res.send('good')
     } else {
       res.send('bad')
