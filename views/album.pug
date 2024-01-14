@@ -1,11 +1,11 @@
 extends layout
 
 block content
-    link(rel='stylesheet' href='http://localhost:3000/stylesheets/album.css' type='text/css' media='all')
+    link(rel='stylesheet' href='http://37.220.86.212:80/stylesheets/album.css' type='text/css' media='all')
     article.portfolio.hentry
         header.entry-header
             .entry-thumbnail
                 each albumItem in albums
-                    img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image(width='800' height='533' src='http://localhost:3000/images/' + idAlbum + '/' + albumItem alt='p1')
+                    img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image(width='800' height='533' src='http://37.220.86.212:80/images/' + idAlbum + '/' + albumItem alt='p1')
 
 
