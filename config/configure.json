@@ -1,4 +1,4 @@
 {
-    "pwdPath": "~/pwd",
-    "sessionsPath": "~/sessions"
+    "pwdPath": "/root/pwd",
+    "sessionsPath": "/root/sessions"
 }
