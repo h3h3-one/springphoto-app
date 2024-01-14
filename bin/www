@@ -13,7 +13,7 @@ let fs = require("fs")
  * Get port from environment and store in Express.
  */
 
-let port = normalizePort(process.env.PORT || '80');
+let port = normalizePort(process.env.PORT || '443');
 app.set('port', port);
 
 // Creating object of key and certificate 
