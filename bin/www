@@ -23,7 +23,7 @@ app.set('port', port);
 // };
 
 /**
- * Create HTTPS server.
+ * Create http server.
  */
 
 let server = http.createServer(app);

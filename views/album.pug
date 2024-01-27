@@ -1,11 +1,11 @@
 extends layout
 
 block content
-    link(rel='stylesheet' href=' https://springphoto.ru/stylesheets/album.css' type='text/css' media='all')
+    link(rel='stylesheet' href=' http://springphoto.ru/stylesheets/album.css' type='text/css' media='all')
     article.portfolio.hentry
         header.entry-header
             .entry-thumbnail
                 each albumItem in albums
-                    img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image(width='800' height='533' src='https://springphoto.ru/../images/' + idAlbum + '/' + albumItem alt='p1')
+                    img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image(width='800' height='533' src='http://springphoto.ru/../images/' + idAlbum + '/' + albumItem alt='p1')
 
 
