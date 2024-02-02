@@ -13,6 +13,7 @@ benchmarks/graphs
 
 TICKET.txt
 html_template/HTML-Moschino1.0.0
+.vscode
 
 # ignore additional files using core.excludesFile
 # http://git-scm.com/docs/gitignore

@@ -1,4 +1,16 @@
 extends layout 
 
-block content 
+block content
+    #content.site-content
+        #primary.content-area.column.full
+            main#main.site-main
+                article.hentry
+                    header.entry-header
+                        h1.entry-title О себе
+                    .entry-content
+                        p
+                            img.alignright(style='border:10px solid #f4f5f6', src='http://springphoto.ru/images/about/about-me.jpg', alt='bg5', width='430')
+                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        p It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        h2(style='font-family: \'Herr Von Muellerhoff\';color:#ccc;font-weight:300;') Your, Alexandra Andriutsa
     
