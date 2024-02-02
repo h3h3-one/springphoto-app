@@ -316,6 +316,8 @@
 @media ( max-width: 768px ) {
   .wpcmsdev-columns .column {
     width: 100% !important;
+    margin-left: 15px;
+    margin-right: 20px;
   }
 }
 /* Highlights */
