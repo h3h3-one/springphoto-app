@@ -17,6 +17,8 @@ let isAuthorization = require("./middleware/authorization")
 
 let app = express();
 
+app.set('etag', false)
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
