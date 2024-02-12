@@ -31,7 +31,7 @@ router.post("/", function (req, res, next) {
         let sessionsServerSide = sessionsJSON.sessions
 
         // Authentication good
-        if (loginClientSide == loginServerSide && passwordClientSide == passwordServerSide) {
+        if (loginClientSide === loginServerSide && passwordClientSide === passwordServerSide) {
             let uuid = uuidv4()
             // Adding new uuid
             sessionsServerSide.push(uuid)

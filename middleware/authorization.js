@@ -21,13 +21,13 @@ function isAuthorization(cookie) {
     let sessionsJSON = JSON.parse(sessions)
     let sessionsArray = sessionsJSON.sessions
 
-    if (sessionsArray.length == 0) {
+    if (sessionsArray.length === 0) {
         return false
     }
 
     // Search my session
     for (let i = 0; i < sessionsArray.length; i++) {
-        if(sessionsArray[i] == cookie){
+        if(sessionsArray[i] === cookie){
             return true
         }
     }

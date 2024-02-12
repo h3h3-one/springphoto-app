@@ -16,7 +16,7 @@ router.get('/:id', function (req, res, next) {
         let albumsArray = files
 
         // If albums undefined
-        if (albumsArray == undefined) {
+        if (albumsArray === undefined) {
             res.render('error', { message: 'Album not found' })
             return
         }
@@ -24,13 +24,13 @@ router.get('/:id', function (req, res, next) {
         // If albums not found
         let isEmptyAlbum = false
         for (let i = 0; i < albumsArray.length; i++) {
-            if (idAlbum == albumsArray[i]) {
+            if (idAlbum === albumsArray[i]) {
                 isEmptyAlbum = true
             }
         }
 
         // If albums dont empty elements 
-        if (albumsArray == [] || isEmptyAlbum == false) {
+        if (albumsArray === [] || isEmptyAlbum === false) {
             res.render('error', { message: 'Album not found' })
         }
 
@@ -44,7 +44,7 @@ router.get('/:id', function (req, res, next) {
 
             // Delete folder "cover" in array
             let albumArray = files.filter((elem) => {
-                return elem != 'cover'
+                return elem !== 'cover'
             })
             res.render('album', { idAlbum: idAlbum, albums: albumArray })
         })
