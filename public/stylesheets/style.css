@@ -1329,9 +1329,9 @@ object {
 }
 
 /*--------------------------------------------------------------14.2 Galleries--------------------------------------------------------------*/
-.gallery {
-	margin-bottom: 1.5em;
-}
+/*.gallery {*/
+/*	margin-bottom: 1.5em;*/
+/*}*/
 
 .gallery-item {
 	display: inline-block;
