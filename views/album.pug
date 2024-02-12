@@ -6,22 +6,26 @@ block content
         header.entry-header
             .entry-thumbnail
                 each albumItem in albums
-                    img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image(width='800' height='533' src='//springphoto.ru/../images/' + idAlbum + '/' + albumItem alt='p1')
+                    .gallery(onclick='openLightbox(event)')
+                        img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image(width='600' height='533' src='//springphoto.ru/../images/' + idAlbum + '/' + albumItem, alt='Image 1')
 
-                //    .gallery(onclick='openLightbox(event)')
-                //        img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image(width='800' height='533' src='//springphoto.ru/../images/' + idAlbum + '/' + albumItem, alt='Image 1')
-                //
-                //
-                //#lightbox
-                //
-                //    span#close-btn(onclick='closeLightbox()') ×
-                //
-                //    img#lightbox-img(src, alt='lightbox image')
-                //
-                //    #thumbnail-container
-                //
-                //    button#prev-btn(onclick='changeImage(-1)') <
-                //    button#next-btn(onclick='changeImage(1)') >
+
+                #lightbox
+
+                    span#close-btn(onclick='closeLightbox()') ×
+
+                    img#lightbox-img(src, alt='lightbox image')
+
+                    #thumbnail-container
+
+                    button#prev-btn(onclick='changeImage(-1)') <
+                    button#next-btn(onclick='changeImage(1)') >
+
+                // each albumItem in albums
+                //     img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image(width='800' height='533' src='//springphoto.ru/../images/' + idAlbum + '/' + albumItem alt='p1')
+
+
+
 
 
     //script(src='//springphoto.ru/javascripts/album.js')
