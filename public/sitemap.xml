@@ -3,30 +3,30 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+            https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <!-- created with www.CY-PR.com -->
     <url>
-        <loc>http://springphoto.ru/</loc>
+        <loc>https://springphoto.ru/</loc>
         <lastmod>2024-02-02T22:08:37+03:00</lastmod>
     </url>
     <url>
-        <loc>http://springphoto.ru/contacts</loc>
+        <loc>https://springphoto.ru/contacts</loc>
         <lastmod>2024-02-02T22:08:37+03:00</lastmod>
     </url>
     <url>
-        <loc>http://springphoto.ru/login</loc>
+        <loc>https://springphoto.ru/login</loc>
         <lastmod>2024-02-02T22:08:37+03:00</lastmod>
     </url>
     <url>
-        <loc>http://springphoto.ru/</loc>
+        <loc>https://springphoto.ru/</loc>
         <lastmod>2024-02-02T22:08:37+03:00</lastmod>
     </url>
     <url>
-        <loc>http://springphoto.ru/contacts</loc>
+        <loc>https://springphoto.ru/contacts</loc>
         <lastmod>2024-02-02T22:08:37+03:00</lastmod>
     </url>
     <url>
-        <loc>http://springphoto.ru/login</loc>
+        <loc>https://springphoto.ru/login</loc>
         <lastmod>2024-02-02T22:08:37+03:00</lastmod>
     </url>
 </urlset>
