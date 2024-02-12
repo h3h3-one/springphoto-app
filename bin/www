@@ -12,7 +12,7 @@ let fs = require('fs')
  * Get port from environment and store in Express.
  */
 
-let port = normalizePort(process.env.PORT || '80');
+let port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 // Creating object of key and certificate 
@@ -89,7 +89,8 @@ function onError(error) {
  */
 
 function onListening() {
-  let addr = server.address();
+//  let addr = server.address();
+  let addr = 0.0.0.0;
   let bind = typeof addr === 'string'
     ? 'pipe ' + addr
     : 'port ' + addr.port;
