@@ -3133,5 +3133,6 @@ form {
 	}
 	.imageabout{
 		text-align: center;
+		display: flex;
 	}
 }
