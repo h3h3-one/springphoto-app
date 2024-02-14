@@ -3121,12 +3121,6 @@ form {
 	}
 }
 
-@media (max-width:306px) {
-	.alignright {
-		margin: 0 0 20px 0
-	}
-}
-
 @media (max-width:538px) {
 	.aboutme {
 		display: flex;
@@ -3135,5 +3129,8 @@ form {
 		text-align: center;
 		display: flex;
 		justify-content: space-around;
+	}
+	.alignright {
+		margin: 0 0 20px 0
 	}
 }
