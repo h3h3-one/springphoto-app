@@ -3126,3 +3126,12 @@ form {
 		margin: 0 0 20px 0
 	}
 }
+
+@media (max-width:538px) {
+	.aboutme {
+		display: flex;
+	}
+	.imageabout{
+		text-align: center;
+	}
+}
